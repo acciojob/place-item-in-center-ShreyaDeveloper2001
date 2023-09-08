@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+/* Apply styles to the holder element */
+.holder {
+  /* Make it take the full viewport width and height */
+  width: 100vw;
+  height: 100vh;
+  
+  /* Use flexbox properties to center its children */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Apply styles to item-1 */
+.item-1 {
+  /* Set its dimensions and background color */
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
